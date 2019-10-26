@@ -11,4 +11,6 @@ This sample php page is based on the Naples Airport (Italy).
 Just change the airport name in the .sh file and the two PHP pages! 
 Change the script location in the PHP page (if different from /var/www/html)
 
-Contact me if you have questions and enjoy it!
+Also chenge the JQuery folder address if it is not installed in your server.
+
+Contact me if you have any questions and enjoy it!

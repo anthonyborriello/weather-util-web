@@ -1,2 +1,2 @@
 # weather-metar
-A web interface for the linux app weather
+A simple web result for the linux app weather-util

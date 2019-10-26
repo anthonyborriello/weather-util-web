@@ -7,6 +7,7 @@ Ex:
 sudo apt install weather-util
 
 This sample php page is based on the Naples Airport (Italy)
+
 Just change the airport name in the .sh file and the two PHP pages! 
 Change the script location in the PHP page (if different from /var/www/html)
 

@@ -1,7 +1,7 @@
 # weather-metar
 A simple web result page for the linux app weather-util.
 
-First Install the App weather-util from your Linux distro repository
+First install the App weather-util from your Linux distro repository
 
 Ex:
 sudo apt install weather-util

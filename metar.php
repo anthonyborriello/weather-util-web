@@ -33,19 +33,17 @@
 <body>
     <div class="loading-bar"></div>
     <div id="response"></div>
-    <script src = "/JQuery/JQuery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script>
         // Page load function
         $(document).ready(function(){
             console.log('this is run on page load');
-
             // Inmediately show your bar
             var $loadingBar = $('.loading-bar');
             $loadingBar.addClass('active');
-
             // Then execute Ajax
             $.ajax({
-                url: "http://localhost/weather.php",
+                url: "http://asus-server/weather.php",
             })
             .done(function(data) {
                // show response from the php script

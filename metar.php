@@ -43,7 +43,7 @@
             $loadingBar.addClass('active');
             // Then execute Ajax
             $.ajax({
-                url: "http://asus-server/weather.php",
+                url: "http://localhost/weather.php",
             })
             .done(function(data) {
                // show response from the php script

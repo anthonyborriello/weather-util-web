@@ -10,5 +10,5 @@ This sample php page is based on the Naples Airport (Italy).
 
 Just change the airport name in the .sh file!
 
-Example:
+Example:<br>
 weatehr lirn -v (LIRN is Naples airport, Italy) <br> weather lirf -v (LIRF is Fiumicino airport, Italy)

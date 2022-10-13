@@ -1,4 +1,4 @@
-# weather-metar
+# weather-util Web Interface
 A simple web result page for the linux app weather-util.
 
 First install the App weather-util from your Linux distro repository.

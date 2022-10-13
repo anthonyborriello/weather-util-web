@@ -23,6 +23,8 @@
       padding-right: 30px;
       padding-bottom: 10px;
     }
+    /* weather-util-web is an idea of Antonio Borriello based on the weather-util app */
+    /* https://github.com/anthonyborriello */
   </style>
 </head>
 <body>

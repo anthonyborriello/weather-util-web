@@ -12,3 +12,7 @@ Just change the airport name in the .sh file!
 
 Example:<br>
 weatehr lirn -v (LIRN is Naples airport, Italy) <br> weather lirf -v (LIRF is Fiumicino airport, Italy)
+
+Place the files in your html folder<br>
+Example:<br>
+/var/www/html/

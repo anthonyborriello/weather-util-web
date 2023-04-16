@@ -1,3 +1,3 @@
 #!/bin/bash
 
-weather lirn -v
+weather lirn -v -q

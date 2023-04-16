@@ -16,6 +16,6 @@ weatehr lirn -v -q (LIRN is Naples airport, Italy) <br> weather lirf -v -q (LIRF
 Place the files in your html folder:<br>
 /var/www/html/
 
-Link to the page 'metar' in the folder to show the selected airport forecast:
+Link to the page 'metar.php' to show the selected airport forecast:
 
 ![METAR](https://user-images.githubusercontent.com/57049017/232319183-a245412e-bf41-43a0-98e1-4829849b8d1c.png)

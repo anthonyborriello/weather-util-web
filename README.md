@@ -11,11 +11,11 @@ This sample php page is based on the Naples Airport (Italy).
 Just change the airport name in the .sh file!
 
 Example:<br>
-weatehr lirn -v (LIRN is Naples airport, Italy) <br> weather lirf -v (LIRF is Fiumicino airport, Italy)
+weatehr lirn -v -q (LIRN is Naples airport, Italy) <br> weather lirf -v -q (LIRF is Fiumicino airport, Italy)
 
 Place the files in your html folder:<br>
 /var/www/html/
 
 Link to the page 'metar' in the folder to show the selected airport forecast:
 
-![Metar](https://user-images.githubusercontent.com/57049017/195637172-76fd29e7-5759-4658-8d22-9b3eb4cf579e.png)
+![METAR](https://user-images.githubusercontent.com/57049017/232319183-a245412e-bf41-43a0-98e1-4829849b8d1c.png)

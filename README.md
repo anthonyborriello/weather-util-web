@@ -18,4 +18,4 @@ Place the files in your html folder:<br>
 
 Link to the page 'metar.php' to show the selected airport forecast:
 
-![METAR](https://user-images.githubusercontent.com/57049017/232319183-a245412e-bf41-43a0-98e1-4829849b8d1c.png)
+![Metar](https://user-images.githubusercontent.com/57049017/233770868-6e9f1caa-9551-4520-83c8-de101149dc9b.png)

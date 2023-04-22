@@ -8,8 +8,9 @@ sudo apt install weather-util
 
 This sample php page is based on the Naples Airport (Italy).
 
-Just change the airport name in the .sh file!
+Just change the airport name in the php file
 
+Add your favourite airports in the selectable list
 Example:<br>
 weatehr lirn -v -q (LIRN is Naples airport, Italy) <br> weather lirf -v -q (LIRF is Fiumicino airport, Italy)
 

@@ -59,7 +59,7 @@ pre {
   overflow-x: auto;
   overflow-y: hidden;
   margin-bottom: 0;
-  padding-bottom: 30px; /* A bit of padding to match the space of Wireless Check page */
+  padding-bottom: 30px;
  }
 }
 </style>

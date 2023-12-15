@@ -59,23 +59,26 @@ pre {
   overflow-x: auto;
   overflow-y: hidden;
   margin-bottom: 0;
-  padding-bottom: 30px; 
+  padding-bottom: 30px;
  }
 }
 </style>
 </head>
 <body>
 <div class="content">
+  <div class="header">
+    <h1>METAR</h1>
+  </div>
 <form id="metarForm" method="post" action="">
   <h1>METAR</h1>
-  <label for="aeroporto">Seleziona il codice dell'aeroporto:</label>
+  <label for="aeroporto">Select airport:</label>
   <select id="aeroporto" name="aeroporto">
     <option value="lirn" <?= $_POST['aeroporto'] == 'lirn' ? 'selected' : '' ?>>LIRN (Napoli)</option>
     <option value="liri" <?= $_POST['aeroporto'] == 'liri' ? 'selected' : '' ?>>LIRI (Salerno)</option>
     <option value="lirm" <?= $_POST['aeroporto'] == 'lirm' ? 'selected' : '' ?>>LIRM (Grazzanise)</option>
     <option value="liqc" <?= $_POST['aeroporto'] == 'liqc' ? 'selected' : '' ?>>LIQC (Capri)</option>
   </select>
-  <input type="submit" value="Invia" id="submitBtn">
+  <input type="submit" value="Send" id="submitBtn">
 </form>
 
 <p id="caricamento" style="display: none;">Caricamento in corso...</p>
@@ -101,12 +104,25 @@ pre {
 </script>
 
 <?php
+// Inizio del codice PHP per eseguire il comando weather-util
+
+// Controlla se è stato inviato un valore per il codice dell'aeroporto
 if (isset($_REQUEST['aeroporto'])) {
+  // Se è stato inviato un valore, ottienilo e sanifica
   $aeroporto = escapeshellarg($_REQUEST['aeroporto']);
+
+  // Esegui il comando weather-util con i parametri desiderati
   $output = shell_exec("weather $aeroporto -v -q");
+
+  // Crea un quadratino e inserisci l'output del comando all'interno
   echo "<pre>$output</pre>";
 }
+
+// Fine del codice PHP
 ?>
+</div>
+</body>
+</html>
 </div>
 </body>
 </html>

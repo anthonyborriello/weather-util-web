@@ -59,16 +59,13 @@ pre {
   overflow-x: auto;
   overflow-y: hidden;
   margin-bottom: 0;
-  padding-bottom: 30px;
+  padding-bottom: 30px; 
  }
 }
 </style>
 </head>
 <body>
 <div class="content">
-  <div class="header">
-    <h1>METAR</h1>
-  </div>
 <form id="metarForm" method="post" action="">
   <h1>METAR</h1>
   <label for="aeroporto">Select airport:</label>
@@ -120,9 +117,6 @@ if (isset($_REQUEST['aeroporto'])) {
 
 // Fine del codice PHP
 ?>
-</div>
-</body>
-</html>
 </div>
 </body>
 </html>

@@ -38,7 +38,7 @@ form {
   margin: 0 auto;
   padding-left: 45px;
   padding-right: 45px;
-  padding-bottom: 40px; /* Padding should be 45 but 42 is better :) */
+  padding-bottom: 40px; /* Padding should be 45 but 40 is better :) */
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
 pre {

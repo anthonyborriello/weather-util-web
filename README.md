@@ -1,4 +1,15 @@
 # weather-util<br>web interface
+<style>
+  a {
+    color: #3366cc; /* Cambia il colore del testo del link */
+    text-decoration: none; /* Rimuove il sottolineato di default */
+    font-weight: bold; /* Rende il testo in grassetto */
+  }
+
+  a:hover {
+    text-decoration: none; 
+  }
+</style>
 A simple web result page for the linux app weather-util.
 
 First install the App weather-util from your Linux distro repository.

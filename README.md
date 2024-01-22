@@ -20,3 +20,6 @@ Place the files in your html folder:<br>
 Link to the page 'metar.php' to show the selected airport forecast:
 
 ![Metar](https://user-images.githubusercontent.com/57049017/233770868-6e9f1caa-9551-4520-83c8-de101149dc9b.png)
+
+Here a live example:
+<a href="http://metarmeteo.hostinggratis.it/" target="_blank">Metar Meteo</a>.

@@ -24,5 +24,6 @@ Link to the page 'metar.php' to show the selected airport forecast:
 
 Here a live example:
 <a href="http://metarmeteo.hostinggratis.it/" target="_blank">Metarmeteo.it</a>
+
 In this case i only used the NOAA databse bypassing wetaher-util commands.
 

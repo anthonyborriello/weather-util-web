@@ -20,7 +20,6 @@ Place the files in your html folder:<br>
 
 ![Metar](https://github.com/anthonyborriello/weather-util-web/assets/57049017/2cc26817-ecce-408a-bcc6-48f3cacf11ab)
 
-Link to the page 'metar.php' to show the selected airport forecast:
 
 
 

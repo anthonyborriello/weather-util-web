@@ -5,7 +5,7 @@ A simple web interface that replicates the output of the command `weather-util`,
 This PHP page allows selecting an airport (for example LIRN, LIRI, LIRM, LIQC) and shows the corresponding METAR report, similar to running:
 
 ```
-weather LIRN -v -q
+weather lirn -v -q
 ```
 
 ## Features

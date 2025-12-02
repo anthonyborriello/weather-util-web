@@ -1,4 +1,4 @@
-# weather-util web interface
+# weather-util Web Interface
 
 A simple web interface that replicates the output of the command `weather-util`, displaying decoded METAR data fetched from NOAA.
 
@@ -11,16 +11,17 @@ weather lirn -v -q
 ## Features
 
 - Clean, minimal, responsive interface  
-- Customizable selectable airport list  
+- Customizable airport selection list  
 - Retrieves decoded METAR reports from NOAA  
-- Requires only lighttpd-nginx-apache and PHP  
+- Works with lighttpd, nginx, or Apache  
+- Requires only PHP  
 - No external dependencies
 
 ## Installing weather-util (optional)
 
 For comparison or CLI usage:
 
-```
+```bash
 sudo apt install weather-util
 ```
 
@@ -33,7 +34,7 @@ weather lirf -v -q
 
 ## Web Installation
 
-1. Copy the project .php files into your web directory:
+1. Copy the project PHP file(s) into your web directory:
 
 ```
 /var/www/html/
@@ -41,7 +42,7 @@ weather lirf -v -q
 
 2. Ensure PHP is installed:
 
-Esample:
+Example:
 ```bash
 sudo apt install php8.4
 ```
@@ -55,7 +56,7 @@ http://localhost/metar.php
 
 ## Customizing the Airport List
 
-Edit the `<select>` section in `index.php`:
+Edit the `<select>` section in `metar.php`:
 
 ```php
 <option value="LIRN">LIRN (Naples)</option>

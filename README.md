@@ -1,27 +1,84 @@
-# weather-util<br>web interface
+# weather-util Web Interface
 
-A simple web result page for the linux app weather-util.
+A simple web interface that replicates the output of the command `weather-util`, displaying decoded METAR data fetched from NOAA.
 
-First install the App weather-util from your Linux distro repository.
+This PHP page allows selecting an airport (for example LIRN, LIRI, LIRM, LIQC) and shows the corresponding METAR report, similar to running:
 
-Ex:
+```
+weather LIRN -v -q
+```
+
+## Features
+
+- Clean, minimal, responsive interface  
+- Customizable selectable airport list  
+- Retrieves decoded METAR reports from NOAA  
+- Requires only lighttpd-nginx-apache and PHP  
+- No external dependencies
+
+## Installing weather-util (optional)
+
+For comparison or CLI usage:
+
+```
 sudo apt install weather-util
+```
 
-This sample php page is based on the Naples Airport (Italy).
+Examples:
 
-Just change the airport name in the php file.
+```
+weather lirn -v -q
+weather lirf -v -q
+```
 
-Add your favourite airports in the selectable list.
-Example:<br>
-weatehr lirn -v -q (LIRN is Naples airport, Italy) <br> weather lirf -v -q (LIRF is Fiumicino airport, Italy)
+## Web Installation
 
-Place the files in your html folder:<br>
+1. Copy the project .php files into your web directory:
+
+```
 /var/www/html/
+```
 
-![Metar](https://github.com/anthonyborriello/weather-util-web/assets/57049017/2cc26817-ecce-408a-bcc6-48f3cacf11ab)
+2. Ensure PHP is installed:
 
+Esample:
+```bash
+sudo apt install php8.4
+```
 
+3. Open the interface in your browser:
 
+Example:
+```
+http://localhost/metar.php
+```
 
+## Customizing the Airport List
 
+Edit the `<select>` section in `index.php`:
 
+```php
+<option value="LIRN">LIRN (Naples)</option>
+<option value="LIRI">LIRI (Salerno)</option>
+<option value="LIRM">LIRM (Grazzanise)</option>
+<option value="LIQC">LIQC (Capri)</option>
+```
+
+Add or modify airports as needed.
+
+## METAR Source
+
+All METAR data is fetched from NOAA:
+
+```
+https://tgftp.nws.noaa.gov/data/observations/metar/decoded/
+```
+
+## License
+
+MIT License.
+
+## Author
+
+Antonio Borriello  
+GitHub repository: https://github.com/anthonyborriello/weather-util-web

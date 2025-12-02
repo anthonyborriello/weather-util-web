@@ -1,4 +1,4 @@
-# weather-util Web Interface
+# weather-util web interface
 
 A simple web interface that replicates the output of the command `weather-util`, displaying decoded METAR data fetched from NOAA.
 

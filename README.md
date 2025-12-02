@@ -51,7 +51,7 @@ sudo apt install php8.4
 
 Example:
 ```
-http://localhost/metar.php
+http://metar.php
 ```
 
 ## Customizing the Airport List

@@ -79,10 +79,5 @@ https://tgftp.nws.noaa.gov/data/observations/metar/decoded/
 
 MIT License.
 
-[Author](https://antonioborriello.wordpress.com)
-
-
-## Author
-
-Antonio Borriello  
-GitHub repository: https://github.com/anthonyborriello/weather-util-web
+**Antonio Borriello**  
+About: [antonioborriello.wordpress.com](https://antonioborriello.wordpress.com)

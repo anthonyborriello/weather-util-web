@@ -81,6 +81,5 @@ MIT License.
 
 ## Author
 
-**Antonio Borriello**  
-About me: [antonioborriello.wordpress.com](https://antonioborriello.wordpress.com)  
+🇮🇹   Antonio Borriello - [Website](https://antonioborriello.wordpress.com)
 

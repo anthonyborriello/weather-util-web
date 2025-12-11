@@ -79,7 +79,6 @@ https://tgftp.nws.noaa.gov/data/observations/metar/decoded/
 
 MIT License.
 
-![weather-util-webinterface](https://github.com/user-attachments/assets/9238778f-2a4b-477a-a51d-6884b76d2321)
 
 
 ## Author

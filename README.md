@@ -79,5 +79,8 @@ https://tgftp.nws.noaa.gov/data/observations/metar/decoded/
 
 MIT License.
 
+## Author
+
 **Antonio Borriello**  
-About: [antonioborriello.wordpress.com](https://antonioborriello.wordpress.com)
+About me: [antonioborriello.wordpress.com](https://antonioborriello.wordpress.com)  
+

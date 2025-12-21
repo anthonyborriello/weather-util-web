@@ -78,8 +78,8 @@
       // Get METAR content
       $metar_content = file_get_contents($url);
 
-      // Remove ":0" from content
-      $metar_content = str_replace(':0', '', $metar_content);
+      // Remove ":0 and :1" from content
+      $metar_content = str_replace([':0', ':1'], '', $metar_content);
 
       // Display METAR
       echo '<pre>';

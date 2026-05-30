@@ -1,5 +1,7 @@
 # weather-util Web Interface
 
+<img width="674" height="361" alt="Metar" src="https://github.com/user-attachments/assets/b22bb840-a40a-49ca-b039-f3156a7c67f9" />
+
 A simple web interface that replicates the output of the command `weather-util`, displaying decoded METAR data fetched from NOAA.
 
 This PHP page allows selecting an airport (for example LIRN, LIRI, LIRM, LIQC) and shows the corresponding METAR report, similar to running:

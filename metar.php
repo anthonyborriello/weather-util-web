@@ -15,7 +15,7 @@
   <style>
     body {
       padding-top: 20px;
-      background-color: #f4f4f4;
+      background-color: lightgrey;
     }
     h1 {
       font-family: monospace;

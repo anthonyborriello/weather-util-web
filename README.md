@@ -1,6 +1,6 @@
 # weather-util Web Interface
 
-<img width="674" height="361" alt="Metar" src="https://github.com/user-attachments/assets/b22bb840-a40a-49ca-b039-f3156a7c67f9" />
+<img width="675" height="375" alt="Metar" src="https://github.com/user-attachments/assets/2056d908-3674-4e73-b59c-233cb7e2f519" />
 
 A simple web interface that replicates the output of the command `weather-util`, displaying decoded METAR data fetched from NOAA.
 

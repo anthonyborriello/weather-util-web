@@ -1,4 +1,4 @@
-# weather-util Web Interface
+# weather-util web interface
 
 <img width="675" height="375" alt="Metar" src="https://github.com/user-attachments/assets/2056d908-3674-4e73-b59c-233cb7e2f519" />
 
